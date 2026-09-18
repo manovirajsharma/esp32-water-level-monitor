@@ -33,8 +33,6 @@ I built this loosely based on an online tutorial, but ended up swapping out most
 
 ## Circuit overview
 
-![Sensor Closeup](full_setup.jpeg)
-
 - HC-SR04 trig/echo → GPIO 12 / GPIO 13
 - OLED SDA/SCL → GPIO 21 / GPIO 22 (I2C)
 - Relay IN1 → GPIO 14
@@ -42,6 +40,8 @@ I built this loosely based on an online tutorial, but ended up swapping out most
 - Relay switches the pump's positive line, sourced from the 7.4V battery pack
 
 The relay's VCC/JD-VCC pins are bridged with the onboard jumper cap and powered from the ESP32's VIN pin — running it off 3.3V wasn't enough current for the coil to switch reliably.
+
+![Sensor Closeup](full_setup.jpeg)
 
 ## The build process (and what actually went wrong)
 
