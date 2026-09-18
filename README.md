@@ -41,7 +41,7 @@ I built this loosely based on an online tutorial, but ended up swapping out most
 
 The relay's VCC/JD-VCC pins are bridged with the onboard jumper cap and powered from the ESP32's VIN pin — running it off 3.3V wasn't enough current for the coil to switch reliably.
 
-![Sensor Closeup](full_setup.jpeg)
+![Sensor Closeup](images/full_setup.jpeg)
 
 ## The build process (and what actually went wrong)
 
