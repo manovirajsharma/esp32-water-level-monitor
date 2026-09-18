@@ -33,7 +33,7 @@ I built this loosely based on an online tutorial, but ended up swapping out most
 
 ## Circuit overview
 
-![Sensor closeup](images/full_setup.jpeg)
+![Sensor Closeup](full_setup.jpeg)
 
 - HC-SR04 trig/echo → GPIO 12 / GPIO 13
 - OLED SDA/SCL → GPIO 21 / GPIO 22 (I2C)
